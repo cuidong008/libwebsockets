@@ -713,7 +713,7 @@ if (WIN32 OR MSVC)
 	endif()
 endif()
 
-CHECK_LIBRARY_EXISTS(cap cap_set_flag "" LWS_HAVE_LIBCAP)
+#CHECK_LIBRARY_EXISTS(cap cap_set_flag "" LWS_HAVE_LIBCAP)
 
 
 if (LWS_WITH_ZLIB AND NOT LWS_WITH_BUNDLED_ZLIB)
